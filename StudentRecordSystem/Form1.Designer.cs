@@ -470,7 +470,6 @@
             this.txtSearchBar.Name = "txtSearchBar";
             this.txtSearchBar.Size = new System.Drawing.Size(227, 28);
             this.txtSearchBar.TabIndex = 26;
-            this.txtSearchBar.Text = "Search Students....";
             this.txtSearchBar.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // panel3

@@ -261,8 +261,13 @@ namespace StudentRecordSystem
             }
         }
 
+
         private void textBox1_TextChanged(object sender, EventArgs e)
+
         {
+            if (txtSearchBar.Text == "Search...")
+                return;
+
             try
             {
                 conn.Open();
